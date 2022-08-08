@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletos de Six Flags</title>
+</head>
+<body>
+    <h1>¡Compre sus boletos ahora!</h1> <br>
+
+    <form action="./boletos1.php" method="post">
+        <fieldset style="width:400px";>
+            <legend> <strong>Boleto para Six Flags</strong></legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" required> <br><br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" name="apellidos" required ><br><br>
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" required><br><br>
+            <label for="direccion">Dirección:</label>
+            <input type="text" name="direccion" required><br><br>
+            <label for="num_bol">Número de boletos:</label>
+            <input type="number" name="num_bol" required><br><br>
+            <label for="tipo_bol">Tipo de boleto:</label>
+            <select name="tipo_bol" id="tipo_bol" required>
+                <option value="Pin Pon">Boleto pin pon</option>
+                <option value="VIP">Boleto VIP</option>
+                <option value="Flash">Flash pass</option>
+                <option value="Normal">Boleto normal</option>
+                <option value="Humilde">Boleto humilde</option>
+            </select> <br><br>
+      
+            <button type="submit">Enviar</button> 
+            <button type="reset">Restablecer</button>
+        </fieldset>
+
+    </form>
+</body>
+</html>
