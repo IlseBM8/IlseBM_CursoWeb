@@ -1,0 +1,245 @@
+*{
+    background-color: black;
+}
+
+/*
+-----------------------header-----------------------------------*/
+
+#header{
+    position: absolute;
+    width: 1503px;
+    height: 250px ;
+}
+
+#foto{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 240px;
+    border-radius: 100px;
+    width: 390px;
+    height: 290px;
+    z-index: 1;
+}
+/*
+------------------------columna izquierda-----------------------*/
+.col_izq{
+    position: absolute;
+    margin-top: 260px;
+    margin-right: 10px;
+    background-color: #5B2C6F;
+    width: 640px;
+    height: 849px ;
+}
+
+.bienvenida{
+    position: relative;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    margin-left: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30pt;
+    font-weight: bolder;
+    color: white;
+    background-color: inherit;
+}
+
+.linea{
+    border-color: #2980B9;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 10px;
+    height: 5px;    
+    background-color: #2980B9 ;
+}
+
+.titulo2{
+    margin-top: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    color: white;
+    background-color: inherit;
+}
+
+.texto1{
+    margin: 25px;
+    text-align: justify;
+    color: white;
+    background-color: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+}
+
+strong, i{
+    background-color: inherit;
+}
+
+.tabla{
+    margin-top: 30px;
+    margin-left: 20%;
+    text-align: center;
+    background-color: inherit;
+}
+
+.columnas{
+    background-color: #5B2C6F;
+}
+
+.cuadro{
+    border: solid  3pt #2980B9;
+    background-color: inherit;
+    padding: 15px;
+    font-family: monospace;
+    font-size: 11pt;
+    color: white;
+    border-radius: 10px;
+    transition: transform 0.1s;
+}
+
+.cuadro:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+    }
+
+.random{
+    background-color: #9B59B6;
+    margin-left: 10%;
+    width: 500px;
+    height: 135px;
+    border-radius: 10px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.texto2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    text-align: justify;
+    color: white;
+    background-color: inherit;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+/*
+------------------------columna izquierda-----------------------*/
+.col_der{
+    position: relative;
+    margin-top: 260px;
+    margin-left: 10px;
+    background-color: #21618C;
+    width: 855px;
+    float: right;
+    overflow: hidden;
+}
+
+.tit_gen{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    color: white;
+    background-color: inherit;
+}
+.alineacion1{
+    position: relative;
+    display:inline-block;
+    padding: 5px;
+    background-color: inherit;
+}
+
+.alineacion2{
+    position: relative;
+    display:inline-block;
+    padding: 5px;
+    background-color: inherit;
+}
+
+.alineacion3{
+    position: relative;
+    display:inline-block;
+    padding: 5px;
+    background-color: inherit;
+}
+
+.titulo1{
+    margin-left: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    text-decoration: underline;
+    color: white;
+    background-color: inherit;
+}
+
+.l1{
+    background-color: inherit;
+}
+
+.lista1{
+    padding-bottom: 5px;
+    text-align: justify;
+    font-family: monospace;
+    font-size: 11pt;
+    color: white;
+    background-color: inherit;
+}
+
+.lista2{
+    background-color: inherit;
+    padding-bottom: 5px;
+    text-align: justify;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 12pt;
+    color: white;
+}
+
+.lista3{
+    padding-bottom: 5px;
+    text-align: justify;
+    font-family: monospace;
+    font-size: 11pt;
+    color: white;
+    background-color: inherit;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.lista3:hover {
+        cursor: pointer;
+        transform: scale(1.03);
+        }
+
+.lista3:active {
+        transform: scale(0.90);
+            }
+
+.alineacion4{
+    position: relative;
+    width: 300px;
+    height: auto;
+    margin-left: 75px;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    border-radius: 20px;
+    display:inline-block;
+    padding: 10px;
+    background-color: #9B59B6;
+}
+
+.alineacion5{
+    position: absolute;
+    width: 300px;
+    margin-left: 75px;
+    margin-top: 190px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    display:inline-block;
+    padding: 10px;
+    background-color: #9B59B6;
+}
+
+.l2{
+    background-color: #9B59B6;
+}

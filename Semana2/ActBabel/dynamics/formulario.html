@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Babel</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+    <br>
+    <h1>Biblioteca de Babel</h1><br>
+    <form action="./bibliotecabable.php" method="post">
+        <fieldset class="formulario">
+            <legend>Introduce tu busqueda a la torre de babel</legend>
+            <label for="busqueda"> Buscar: </label>
+                <input id="buscador" type="texto" name="busqueda"> <br> <br>
+            <label class="seleccionar"for="zona">Zona horaria:</label>
+                <select class="opciones" name="zona" >
+                    <option value="newyork">New York</option>
+                    <option value="cdmx">CDMX</option>
+                    <option value="hongkong">Hong Kong</option>
+                    <option value="tokyo">Tokyo</option>
+                    <option value="london">London</option>
+                    <option value="saop">Sao Paulo</option>
+                </select> 
+            <label class="seleccionar" for="modo">Modo</label> 
+                <select class="opciones" name="modo" >
+                    <option value="normal">Normal</option>
+                    <option value="orden">Orden</option>
+                    <option value="palabras">Palabras</option>
+                </select>
+            <br><br><button class="boton" type="submit">Enviar</button>
+            <button class="boton" type="reset">Borrar</button>
+        </fieldset>
+    </form>  
+
+</body>
+</html>

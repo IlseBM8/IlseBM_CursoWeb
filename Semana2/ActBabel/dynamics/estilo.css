@@ -1,0 +1,60 @@
+body {
+    font-size: 13pt;
+    background-color: #fafafa;
+    font-family:sans-serif ;
+    }
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#buscador{
+    width: 500px;
+    height: 25px;
+    font-family: 'Arial Narrow Bold';
+    color:#7A6A47;
+    font-size: large;
+    border-radius: 7pt;
+    border: solid 3px;
+
+}
+
+.formulario{
+    border-radius: 4pt;
+    border: solid 3pt;
+    border-color: #AD7F1A;
+    margin: auto;
+    padding: 20px 20px 45px 20px;
+    width: 800px;
+    font-size: larger;
+}
+
+.seleccionar{
+   padding-left: 150px;
+}
+
+.opciones{
+    border-radius: 4pt;
+    font-family:'Arial Narrow Bold';
+    font-size:large;
+    border: solid 2pt;
+    color: #7A6A47;
+}
+
+.boton{
+    border-radius: 4pt;
+    border:hidden;
+    background-color: #7A5605;
+    font-size: large;
+    color: white;
+}
+
+.tabla{
+    border: solid 3pt;
+    border-color: #7A582E;
+    width: 1000px;
+    text-align: justify;
+    padding: 8px;
+    font-size: medium;
+}
+

@@ -1,0 +1,33 @@
+body{
+    background-color: #D2B4DE ;
+}
+
+#contenedor{
+    margin: auto;
+    display: block;
+    width: 450px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    height: 670px;
+}
+
+#titulo{
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+    padding: auto;
+}
+
+#can-estrella{
+    margin-bottom: 0px;
+}
+
+#formulario{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+

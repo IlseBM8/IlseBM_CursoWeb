@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./statics/styles.css">
+    <title>Estrellas</title>
+</head>
+<body>
+    <!-- contenedor general -->
+    <div id="contenedor">
+        <p id="titulo">Dibujador de estrellas </p> <br>
+        <!-- aqui se mostrará la estrella -->
+        <div id="estrella">
+            <canvas id="can-estrella" width="450" height="450"></canvas>
+        </div>
+        <!-- fomrulario -->
+            <div id="formulario">
+                Número de picos: <input type="number" name="picos" id="picos" min="4" max="30" value="8"> <br>
+                Picudo: <input type="range" id="picudo" name="picudo" ><br>
+                Color: <input type="color" id="color"> <br>
+                Rellenar: <input type="checkbox" name="rellenar" id="rellenar" value=false>
+            </div>        
+    </div>
+
+    <script src="./dynamics/index.js"></script>
+</body>
+</html>

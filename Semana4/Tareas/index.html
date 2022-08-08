@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+    <link rel="stylesheet" href="./statics/styles.css">
+</head>
+<body>
+    <!-- Contenedor -->
+    <div id="contenedor">
+        <p id="titulo">Lista de tareas</p> 
+        <input class="escribir" id="nombre" type="text" placeholder="Tarea"> <br> <br>
+        <!-- materia -->
+        <select name="materia" id="materia"> 
+                <option id="curso" value="CursoWeb" selected>CursoWeb</option>
+                <option id="otro" value="otro">Otro</option>
+        </select>  
+        <!-- agregar matera : display none -->
+        <input class="escribir" id="nuevaMat" type="text" style="display: none;" placeholder="Nueva materia"> <br><br>
+        <button  id="agregar">Añadir tarea</button> <br>
+        <!-- seccion para poner tareas pendientes -->
+        <div id="tareas">
+        </div>
+        <p id="contador"></p>
+    </div>
+    <script src="./dynamics/index.js"></script>
+</body>
+</html>
